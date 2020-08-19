@@ -1,0 +1,209 @@
+//আমি ঝনকার ভাইয়া বই থেকে প্রগ্রাম্মিং শিখার 
+//সময়এই Codeটা লিখেছি 
+//just practise 
+
+var ara=[72,36,79,74,35,78,20,
+         65,32,47,55,46,41,60];
+console.log(ara.length);
+ara.sort();
+console.log(ara);
+ ara.reverse();
+console.log(ara);
+
+//আরও কয়েক্টি code আমি আলাদা আলাদা ভাবেই এখারে
+//present করব 
+//All are js code
+//One more code bellow
+
+ 
+function jogkor (first,second){
+
+  var jogfol=first+second;
+  return jogfol;
+  
+ } 
+var calerdam=345;
+var aterdam=435;
+console.log(jogkor(calerdam,aterdam));
+var peyeci=jogkor(calerdam,aterdam);
+console.log(peyeci);
+
+//Again one more code here bello
+
+
+var nayeem="Nayeem";
+var islam="Nishat";
+console.log(nayeem+ islam);
+
+
+
+var Salary=3000;
+if(Salary>=3000){
+console.log("Chakri korbo");
+  }
+else{
+ console.log("Chakri korbo na");
+  }
+
+
+
+var chatri=true;
+if(Salary>=3000&&chatri==true){
+ console.log("kopal khule gece");
+  }
+else{
+ console.log("fokira marka tuition ");
+  }
+
+
+
+var arra=[" nayeem","dolly","molly",
+          "dhomok"," sajid"];
+console.log(arra);
+console.log(arra.length);
+arra.push("badshaho");
+console.log(arra);
+arra.pop();
+console.log(arra);
+arra[1]="boss";
+console.log(arra);
+
+
+
+var total=0;
+var m;
+for(m=0;m<=100;m++){
+  total=total+m;
+  }
+console.log(total);
+
+console.log(arra.indexOf("dhomok"));
+
+
+
+//I Will also present some beggers
+// level code here, look bellow
+function jogkor (first,second){
+
+  var jogfol=first+second;
+  return jogfol;
+  
+ } 
+function duigunkor(shongka)
+{
+  var goonfol=shongka*2;
+  return goonfol;
+  
+  }
+function dhardey(dharAmount)
+{
+  var friendertaka=dharAmount;
+  return friendertaka;
+  }
+var calerdam=38;
+var dalerdam=56;
+
+var total=jogkor(calerdam,dalerdam);
+var dharlagbe=duigunkor(total);
+var dharpaisi=dhardey(dharlagbe);
+console.log(dharpaisi);
+
+//more code bellow
+function jogkor (first,second){
+
+  var jogfol=first+second;
+  return jogfol;
+  
+ } 
+function duigunkor(shongka)
+{
+  var goonfol=shongka*2;
+  return goonfol;
+  
+  }
+function dhardey(dharAmount)
+{
+  var friendertaka=dharAmount;
+  return friendertaka;
+  }
+
+
+
+var calerdam=345;
+
+var dalerdam=456;
+
+
+function takadorker(first,second)
+{
+  var total=jogkor(first,second);
+  var dharlagbe=duigunkor(total);
+  var takapaici=dhardey(dharlagbe);
+  return takapaici;
+}
+
+console.log(takadorker(
+  calerdam,dalerdam));
+
+//more code
+var ara=["amina","rubina","chobina"
+        , "pabina"];
+for(var i=0;i<=ara.length;i++){
+  var agirl=ara[i];
+  
+ console.log(agirl+" You are beautiful"
+           + " really");
+
+  }
+
+
+
+
+//more codes
+function secondtoHour(seconds)
+{
+  var minutes=seconds/60;
+  var hours=minutes/60;
+  return hours;
+  }
+var sec=7200;
+console.log(secondtoHour(sec));
+
+
+
+//more code bellow
+var nayeem="Nayeem";
+var islam="Nishat";
+console.log(nayeem+ islam);
+var Salary=3000;
+if(Salary>=3000){
+console.log("Chakri korbo");
+  }
+else{
+ console.log("Chakri korbo na");
+  }
+var chatri=true;
+if(Salary>=3000&&chatri==true){
+ console.log("kopal khule gece");
+  }
+else{
+ console.log("fokira marka tuition ");
+  }
+
+var arra=[" nayeem","dolly","molly",
+          "dhomok"," sajid"];
+console.log(arra);
+console.log(arra.length);
+arra.push("badshaho");
+console.log(arra);
+arra.pop();
+console.log(arra);
+
+//That's it for now
+
+
+
+
+
+
+  
