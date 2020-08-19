@@ -1,0 +1,18 @@
+//just my practice nothing else,,frome book:
+//programming bolod to boss   
+
+
+
+
+var phonebook={};
+phonebook["Nayeem"]=01728485137;
+
+phonebook["Alaminvaiya"]=01777777777;
+
+phonebook["Jamima"]=01835875357;
+
+phonebook["Naima"]=0173678903;
+
+phonebook["Pabina"]=01787898890;
+console.log(phonebook.Jamima);
+console.log(phonebook["Jamima"]);
