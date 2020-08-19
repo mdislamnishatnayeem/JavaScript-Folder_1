@@ -1,0 +1,30 @@
+//এক্তা code এখানে
+
+
+function nayeem(height,weight,eyecolor,age){
+	this.nayeemheight=height;
+	this.hisweight=weight;
+	this.hiseyecolor=eyecolor;
+	this.hisage=age;
+}
+var nayeemvai=new nayeem(5.6,56,"black",17);
+console.log(nayeemvai); 
+
+
+
+//আরেক্টি প্রায় একি রকম code
+
+
+
+
+class Vapa{
+  constructor(narikel,gurtukra){
+    this.narikel=narikel;
+    this.gurtukra=gurtukra;
+    }
+  
+  
+  
+  };
+var mypitha=new Vapa(10,4);
+console.log(mypitha);
