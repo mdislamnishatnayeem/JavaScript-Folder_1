@@ -38,3 +38,9 @@ var y=binarySearchIterative([1,2,3,4,5], 55);
 console.log(m +"th number position");
 console.log(a+ "th numbe position ");
 console.log(y +" th number position");
+
+
+//>Console:
+//4th number position
+//1th numbe position
+//-1 th number position
