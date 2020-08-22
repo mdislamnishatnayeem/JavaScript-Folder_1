@@ -1,0 +1,28 @@
+//Basic  in javascript code
+
+
+var name = window.prompt("Enter your name: ");
+alert("Your name is " + name);
+var num1=window.prompt("Inter a number: ");
+var num2=window.prompt(" Inter a another number: ");
+
+var sum =Number(num1)+Number(num2);
+alert(" The sum is "+sum);
+document.write(sum);
+
+
+
+
+//decimal number will get input two 
+//decimal digits frome the 
+//user and it will add two decimal digits
+
+
+var decimal1=window.prompt("Inter a decimal  number: ");
+var decimal2=window.prompt(" Inter a another decimal number: ");
+
+var add=Number(decimal1)+Number(decimal2);
+    
+     
+alert(" The sum is"+add);
+document.write(add);
