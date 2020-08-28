@@ -1,0 +1,27 @@
+function removeDuplicate(sentence){
+    var output = "";
+
+    for(var i = 0; i < sentence.length; i++){
+            var letter = sentence[ i ];
+            if(output.indexOf(letter) == -1){
+                output = output + letter;
+            }
+    }
+    return output;
+}                                                   
+    
+var s=removeDuplicate(" My name is nayeem islam");
+console.log(s);
+
+//
+//দুটি string জগ করা জায় এভাবে
+var s="ME";
+var m="ss";
+s=s+m;
+console.log(s);
+
+
+//কিন্তু এভাবে জগ করতে পারব না
+
+s=s+2323;
+console.log(s);
