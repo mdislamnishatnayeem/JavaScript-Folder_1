@@ -1,0 +1,22 @@
+function getNotRepeated(names){
+	var selected=[];
+	for(var i=0;i<names.length;i++){
+		var name=names[i];
+		if(names.indexOf(name)==names.lastIndexOf(name)){
+			selected.push(name);
+		}
+	}
+	return selected;
+}
+
+var mm=getNotRepeated(["nayeem","kayim","payim","jaim","rubina",
+	"sabina","pabina","rubina","sabina","nayeem"]);
+console.log(mm);
+
+var str = "Hello planet earth, you are a great planet.";
+var n = str.lastIndexOf("planet");
+console.log(n);
+
+var strm = "Hello planet earth, you are a great planet.";
+var nm = strm.lastIndexOf("planet", 20);
+console.log(nm);
