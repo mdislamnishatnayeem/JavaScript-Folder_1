@@ -38,9 +38,12 @@ function removeduplicate(sentence){
 
 	var output="";
 	for(var i=0;i<sentence.length;i++){
-		var letter=sentence[i];
-		if(output.indexOf(letter)==-1){
-			output=output+letter;
+		var letter=sentence[i];//in this way we can print diifferent 
+		                       //position element of a string
+
+		if(output.indexOf(letter)==-1){   //if this element is even 
+			                             //not in the new string  then add it  
+			output=output+letter; //in this way we can add string 
 				
 		}
 	}
