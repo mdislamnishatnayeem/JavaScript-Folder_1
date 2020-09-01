@@ -25,3 +25,27 @@ console.log(s);
 
 s=s+2323;
 console.log(s);
+
+
+
+//you can also apply this code to this question The code bellow:
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+-------------------------------------------------------------------
+
+
+function removeduplicate(sentence){
+
+	var output="";
+	for(var i=0;i<sentence.length;i++){
+		var letter=sentence[i];
+		if(output.indexOf(letter)==-1){
+			output=output+letter;
+				
+		}
+	}
+	return output;
+}
+
+var nnn=removeduplicate("My name  is Nayeem  Islam Nishat");
+console.log(nnn);
